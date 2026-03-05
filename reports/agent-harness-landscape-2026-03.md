@@ -10,24 +10,13 @@ The term caught fire. Within weeks, the ecosystem split into distinct layers —
 
 ## The Stack
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                      Human Oversight                          │
-│  Approve proposals · Review PRs · Set priorities · Override   │
-├──────────────────────────────────────────────────────────────┤
-│                  Planning & Requirements                      │
-│  Chorus · OpenSpec · Spec Kit · Kiro IDE                      │
-├──────────────────────────────────────────────────────────────┤
-│                  Orchestration & Scheduling                   │
-│  Vibe Kanban · Emdash · Symphony · Axon · Warp               │
-├──────────────────────────────────────────────────────────────┤
-│                  Coding Agents (Execution)                     │
-│  Claude Code · Codex · OpenCode · Gemini CLI · Amp · Kiro CLI │
-├──────────────────────────────────────────────────────────────┤
-│                  Infrastructure                               │
-│  MCP · agents.md · Git worktrees · CI/CD · Sandboxing         │
-└──────────────────────────────────────────────────────────────┘
-```
+| Layer | Role | Tools |
+|-------|------|-------|
+| **Human Oversight** | Approve proposals, review PRs, set priorities | PR review, proposal approval |
+| **Planning & Requirements** | Idea → Spec → Task DAG | Chorus, OpenSpec, Spec Kit, Kiro IDE |
+| **Orchestration & Scheduling** | Parallel execution, isolation, CI feedback | Vibe Kanban, Emdash, Symphony, Axon, Warp |
+| **Coding Agents** | Write, test, and debug code | Claude Code, Codex, OpenCode, Gemini CLI, Amp, Kiro CLI |
+| **Infrastructure** | Standards, protocols, sandboxing | MCP, agents.md, Git worktrees, CI/CD |
 
 ## Competitive Landscape
 
