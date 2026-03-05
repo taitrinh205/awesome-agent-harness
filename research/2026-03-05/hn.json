@@ -1,0 +1,6 @@
+[
+  {"rank":3,"title":"Something is afoot in the land of Qwen","url":"https://simonwillison.net/2026/Mar/4/qwen/","points":496,"comments":236,"tags":["AI","open-weight","qwen"]},
+  {"rank":5,"title":"Anthropic CEO calls OpenAI military messaging 'straight up lies'","url":"https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/","points":65,"comments":16,"tags":["AI","anthropic","openai"]},
+  {"rank":6,"title":"NanoGPT Slowrun: Language Modeling with Limited Data, Infinite Compute","url":"https://qlabs.sh/slowrun","points":113,"comments":24,"tags":["AI","training"]},
+  {"rank":14,"title":"Qwen3.5 Fine-Tuning Guide – Unsloth","url":"https://unsloth.ai/docs/models/qwen3.5/fine-tune","points":260,"comments":64,"tags":["AI","fine-tuning","qwen"]}
+]

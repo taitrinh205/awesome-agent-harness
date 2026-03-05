@@ -1,0 +1,11 @@
+{
+  "fetched_at": "2026-03-03T18:06+08:00",
+  "source": "brave_search (reddit)",
+  "items": [
+    {"title": "6 things I learned using AI agents to work on a 100k loc code base cost $20k tokens", "url": "https://www.reddit.com/r/ClaudeAI/comments/1rikb6r/", "subreddit": "r/ClaudeAI"},
+    {"title": "What's the most important part of development when vibe coding with AI?", "url": "https://www.reddit.com/r/ClaudeCode/comments/1riwe0z/", "subreddit": "r/ClaudeCode"},
+    {"title": "Claude outage - Single-model dependency bites hard in production. We run 6 AI agents", "url": "https://www.reddit.com/r/ClaudeCode/comments/1rj19eu/", "subreddit": "r/ClaudeCode"},
+    {"title": "Built a system where Claude manages multiple AI agents to handle complete software projects", "url": "https://www.reddit.com/r/ClaudeAI/comments/1riiw7e/", "subreddit": "r/ClaudeAI"},
+    {"title": "Autonomous AI newsroom where Claude Code agents write, review, and publish articles", "url": "https://www.reddit.com/r/ClaudeCode/comments/1rivxuv/", "subreddit": "r/ClaudeCode"}
+  ]
+}

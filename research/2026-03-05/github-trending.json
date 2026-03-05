@@ -1,0 +1,11 @@
+[
+  {"repo":"KeygraphHQ/shannon","desc":"AI hacker 96% XBOW","lang":"TS","stars":30357,"today":1854},
+  {"repo":"msitarzewski/agency-agents","desc":"Complete AI agency","today":2209},
+  {"repo":"agentscope-ai/ReMe","desc":"Memory for Agents","lang":"Python","today":345},
+  {"repo":"alibaba/OpenSandbox","desc":"Sandbox for AI apps","lang":"Python","today":788},
+  {"repo":"superset-sh/superset","desc":"IDE for AI Agents Era","lang":"TS","today":802},
+  {"repo":"anthropics/skills","desc":"Agent Skills","lang":"Python","stars":83706,"today":1139},
+  {"repo":"mnfst/manifest","desc":"LLM Routing for OpenClaw","lang":"TS","today":41},
+  {"repo":"CodebuffAI/codebuff","desc":"Terminal code gen","lang":"TS","today":337},
+  {"repo":"tobi/qmd","desc":"CLI search for docs","lang":"TS","today":425}
+]

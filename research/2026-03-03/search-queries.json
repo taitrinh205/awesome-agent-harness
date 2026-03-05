@@ -1,0 +1,29 @@
+{
+  "fetched_at": "2026-03-03T18:06+08:00",
+  "queries": [
+    {"query": "coding agent 2026", "top_results": [
+      {"title": "Best AI Coding Agents 2026: The Senior Editor's Guide", "url": "https://cssauthor.com/best-ai-coding-agents/"},
+      {"title": "Beyond the Vibes: A Rigorous Guide to AI Coding Assistants and Agents", "url": "https://blog.tedivm.com/guides/2026/03/beyond-the-vibes-coding-assistants-and-agents/"},
+      {"title": "MiniMax M2.5: Built for Real-World Productivity", "url": "https://www.minimax.io/news/minimax-m25", "note": "New model, uses Claude Code as scaffolding for benchmarks"}
+    ]},
+    {"query": "multi-agent orchestration software", "top_results": [
+      {"title": "Tess AI raises $5M to expand enterprise agent orchestration platform", "url": "https://siliconangle.com/2026/03/02/tess-ai-raises-5m-expand-enterprise-agent-orchestration-platform/"},
+      {"title": "Claude Code Swarms: Multi-Agent AI Coding Is Here", "url": "https://zenvanriel.com/ai-engineer-blog/claude-code-swarms-multi-agent-orchestration/"},
+      {"title": "Clawdbot Multi-Agent Orchestration Advanced Guide", "url": "https://zenvanriel.com/ai-engineer-blog/clawdbot-multi-agent-orchestration-guide/"}
+    ]},
+    {"query": "vibe coding limitations engineering", "top_results": [
+      {"title": "How Top Vibe Coders Are Not YOLO", "url": "https://intentful.ueberproduct.de/p/how-top-vibe-coders-are-not-yolo"},
+      {"title": "Vibe Coding Lawyers and the New Economics of Legal Tech", "url": "https://www.artificiallawyer.com/2026/03/02/vibe-coding-lawyers-and-the-new-economics-of-legal-tech/"},
+      {"title": "Workday CEO: no amount of vibe coding will produce an HR/ERP system", "url": "https://cloudwars.com/cloud-wars-minute/workday-ceo-bhusri-brilliant-take-on-apps-ai-and-limits-of-vibe-coding/"}
+    ]},
+    {"query": "Claude Code agent teams multi-agent", "top_results": [
+      {"title": "Using Claude Code Agent Teams for Incident Investigation", "url": "https://magarcia.io/using-claude-code-agent-teams-for-incident-investigation/"},
+      {"title": "The Developer's Guide to Autonomous Coding Agents: Orchestrating Claude Code, Ruflo, and Deer-Flow", "url": "https://www.sitepoint.com/the-developers-guide-to-autonomous-coding-agents-orchestrating-claude-code-ruflo-and-deerflow/"},
+      {"title": "Control Claude Code and Other AI Coding Agents from Your Phone", "url": "https://dev.to/lightningdev123/control-claude-code-and-other-ai-coding-agents-from-your-phone-156p"}
+    ]},
+    {"query": "AI project management automation", "top_results": [
+      {"title": "Let AI Take the Tedious Out of Project Management", "url": "https://medium.com/rose-digital/let-ai-take-the-tedious-out-of-project-management-a3a484b2d6ff"},
+      {"title": "What 2 MIT experts are thinking about AI and work", "url": "https://mitsloan.mit.edu/ideas-made-to-matter/what-2-mit-experts-are-thinking-about-ai-and-work"}
+    ]}
+  ]
+}

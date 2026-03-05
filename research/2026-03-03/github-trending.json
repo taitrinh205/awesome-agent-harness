@@ -1,0 +1,11 @@
+{
+  "fetched_at": "2026-03-03T18:06+08:00",
+  "source": "https://github.com/trending?since=daily",
+  "relevant_items": [
+    {"repo": "alibaba/OpenSandbox", "stars": 4856, "stars_today": 1026, "desc": "General-purpose sandbox platform for AI applications - Coding Agents, GUI Agents, Agent Evaluation"},
+    {"repo": "superset-sh/superset", "stars": 3778, "stars_today": 585, "desc": "IDE for the AI Agents Era - Run an army of Claude Code, Codex on your machine"},
+    {"repo": "ruvnet/ruflo", "stars": 18368, "stars_today": 830, "desc": "Agent orchestration platform for Claude - multi-agent swarms"},
+    {"repo": "anthropics/prompt-eng-interactive-tutorial", "stars": 31931, "stars_today": 526, "desc": "Anthropic's Interactive Prompt Engineering Tutorial"},
+    {"repo": "K-Dense-AI/claude-scientific-skills", "desc": "Agent Skills for research, science, engineering"}
+  ]
+}

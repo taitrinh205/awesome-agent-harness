@@ -1,0 +1,8 @@
+[
+  {"title":"GPT-5.3 Instant","url":"https://openai.com/index/gpt-5-3-instant/","points":276,"comments":199,"tag":"AI/model"},
+  {"title":"Claude's Cycles (Knuth)","url":"https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf","points":435,"comments":201,"tag":"AI/reasoning"},
+  {"title":"When AI writes the software, who verifies it?","url":"https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html","points":129,"comments":124,"tag":"AI/verification"},
+  {"title":"Don't Make Me Talk to Your Chatbot","url":"https://raymyers.org/post/dont-make-me-talk-to-your-chatbot/","points":191,"comments":129,"tag":"AI/UX"},
+  {"title":"Cekura (YC F24) – Testing for AI agents","url":"https://news.ycombinator.com/item?id=47232903","points":70,"comments":19,"tag":"AI/agent-testing"},
+  {"title":"Cancel ChatGPT boycott after Pentagon deal","url":"https://www.euronews.com/next/2026/03/02/cancel-chatgpt-ai-boycott-surges-after-openai-pentagon-military-deal","points":43,"tag":"AI/industry"}
+]

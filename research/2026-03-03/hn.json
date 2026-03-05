@@ -1,0 +1,9 @@
+{
+  "fetched_at": "2026-03-03T18:06+08:00",
+  "source": "https://news.ycombinator.com/",
+  "relevant_items": [
+    {"title": "Show HN: I built a sub-500ms latency voice agent from scratch", "url": "https://www.ntik.me/posts/voice-agent", "points": 406, "comments": 121},
+    {"title": "Ars Technica fires reporter after AI controversy involving fabricated quotes", "url": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes", "points": 288, "comments": 171},
+    {"title": "Meta's AI smart glasses and data privacy concerns", "url": "https://www.svd.se/a/K8nrV4/", "points": 1085, "comments": 620}
+  ]
+}

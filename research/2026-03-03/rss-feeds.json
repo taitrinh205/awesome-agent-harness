@@ -1,0 +1,8 @@
+{
+  "fetched_at": "2026-03-03T18:06+08:00",
+  "sources_checked": ["simonwillison.net"],
+  "articles": [
+    {"title": "GIF optimization tool using WebAssembly and Gifsicle (Agentic Engineering Patterns)", "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/", "author": "Simon Willison", "published": "2026-03-02"}
+  ],
+  "note": "AI News Newsletter moved to news.smol.ai, RSS source needs updating"
+}

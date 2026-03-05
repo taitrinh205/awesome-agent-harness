@@ -1,0 +1,13 @@
+[
+  {"repo":"superset-sh/superset","desc":"IDE for AI Agents Era","stars":4165,"today":632,"tag":"competitor"},
+  {"repo":"alibaba/OpenSandbox","desc":"Sandbox for AI apps","stars":5386,"today":1150,"tag":"infra"},
+  {"repo":"ruvnet/ruflo","desc":"Agent orchestration for Claude","stars":18547,"today":666,"tag":"orchestration"},
+  {"repo":"moeru-ai/airi","desc":"AI companion","stars":22163,"today":832,"tag":"companion"},
+  {"repo":"agentscope-ai/ReMe","desc":"Memory for Agents","stars":1282,"today":49,"tag":"agent-memory"},
+  {"repo":"LMCache/LMCache","desc":"KV Cache Layer","stars":7394,"today":135,"tag":"infra"},
+  {"repo":"CodebuffAI/codebuff","desc":"Terminal code gen","stars":3274,"today":126,"tag":"coding-agent"},
+  {"repo":"shareAI-lab/learn-claude-code","desc":"Nano Claude Code agent","stars":20841,"today":425,"tag":"education"},
+  {"repo":"tobi/qmd","desc":"CLI search for docs","stars":12140,"today":523,"tag":"tooling"},
+  {"repo":"bytedance/deer-flow","desc":"SuperAgent harness","tag":"orchestration"},
+  {"repo":"openclaw/openclaw","desc":"Personal AI assistant - trending","tag":"us"}
+]
