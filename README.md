@@ -107,6 +107,7 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) — Open standard for connecting AI models to external tools and data sources.
 - [agents.md](https://agents.md/) — Open standard for project-level agent configuration.
 - [AGENTS.md](https://openai.com/index/introducing-agents-md/) — OpenAI's convention for repository-level agent instructions.
+- [ACP (Agent Communication Protocol)](https://agentcommunicationprotocol.dev/) — Open protocol for agent-to-agent and agent-to-harness communication. Enables interoperability across coding agents and orchestrators.
 
 ## Reference & Knowledge
 
