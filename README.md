@@ -86,7 +86,6 @@ Frameworks for building custom harnesses. Following the principle that "fewer to
 The persistent infrastructure layer. Agent runtimes give coding agents long-running capabilities they lack natively: persistent memory, cron scheduling, multi-channel messaging, and sub-agent spawning. If orchestrators solve throughput and task runners solve issue-to-PR, runtimes solve "how does an agent stay alive and connected between tasks."
 
 - [OpenClaw](https://github.com/openclaw/openclaw) — AI agent runtime. Orchestrates agents across messaging channels with skill system, sub-agent spawning, and persistent session management.
-- [Zylos Core](https://github.com/zylos-ai/zylos-core) — Agent runtime adding persistent memory, cron scheduling, multi-channel messaging (Telegram/Feishu), and self-maintenance capabilities to Claude Code agents.
 
 ## Coding Agents
 
