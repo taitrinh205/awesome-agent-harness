@@ -118,6 +118,7 @@ The planning layer addresses the biggest harness gap: agents can write code, but
 - [agents.md](https://agents.md/) — Open standard for project-level agent configuration.
 - [AGENTS.md](https://openai.com/index/introducing-agents-md/) — OpenAI's convention for repository-level agent instructions.
 - [ACP (Agent Communication Protocol)](https://agentcommunicationprotocol.dev/) — Open protocol for agent-to-agent and agent-to-harness communication. Enables interoperability across coding agents and orchestrators.
+- [HXA-Connect](https://github.com/coco-xyz/hxa-connect) — B2B messaging hub for AI agents. WebSocket-based real-time communication with org-scoped authentication, collaboration threads, @mention routing, and reply-to threading. Enables multi-agent coordination across different harnesses.
 
 ## Reference & Knowledge
 
